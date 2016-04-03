@@ -1,0 +1,80 @@
+html, body{
+  height: 100%;
+    overflow: hidden;
+}
+
+body { 
+background-image: url(../img/Group-1.png);
+background-position: center center;
+background-repeat:  no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+
+.center-block {
+        display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding-top: 3%;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+
+.info{
+text-align: center;
+left: 0;
+position:absolute;
+text-align:center;
+ width: 100%;
+    top: 30%;
+  
+     
+}
+
+.info h1 {
+color: #ffffff;
+font:35px Abel;
+}
+
+.info p {
+color: #ffffff;
+padding-top:45px;
+font:400 25px Abel; 
+    
+}
+
+p:nth-child(3) {
+color: #ffffff;
+font: 400 18px Abel;
+padding-top: 45px;
+}
+
+@media only screen and (max-device-width: 480px) {
+.info h1 {
+
+    font-size: 24px;
+    
+}
+    p:nth-child(3) {
+        font-size: 14px;
+      
+    }
+
+}
+
+
+.coming-soon h1 {
+    font-size: 70px;
+}
